@@ -8,3 +8,43 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+@import url("https://fonts.googleapis.com/css?family=Red Hat Display&display=swap");
+
+/*Media query >768px*/
+
+
+body{
+    margin:0;
+    background-color:#F3EAE2;
+}
+/*Nav Bar Settings*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#540B51 ;
+    padding: 20px 20px;
+}
+nav ul li{
+    display: inline;
+    margin: auto 20px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Red Hat Display";
+    color: #F3EAE2;
+}
+nav img{
+    height: 20px;
+}
+nav button{
+    background-color: #540B51;
+    border-style: none;
+}
+nav button img{
+     height: 20px;
+}
+
+
+/*HEADER*/
+
